@@ -1,129 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Battle Cats</title>
+    <title>Příručka pro The Battle Cats</title>
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f3f4f6;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
             color: #333;
         }
-
         header {
-            background-color: #ffcc00;
+            background: #ffcc00;
             color: #333;
-            padding: 15px 0;
+            padding: 20px 10px;
             text-align: center;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
-
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
         }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #ff9900;
-            padding: 10px 0;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            font-size: 1.2rem;
-        }
-
-        nav a:hover {
-            background-color: #e68a00;
-            border-radius: 5px;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 50px 20px;
-            background: url('https://cdn.example.com/battle-cats-banner.jpg') no-repeat center center/cover;
-            color: #fff;
-        }
-
-        .hero h2 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .content {
-            padding: 20px;
+        .container {
+            width: 90%;
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
-
-        .section {
-            margin-bottom: 40px;
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 5px;
         }
-
-        .section h2 {
-            font-size: 2rem;
-            margin-bottom: 10px;
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
         }
-
+        .faq {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .faq h3 {
+            margin-top: 0;
+        }
         footer {
             text-align: center;
-            background-color: #ffcc00;
             padding: 10px 0;
-            margin-top: 40px;
+            margin-top: 20px;
+            background: #333;
+            color: #fff;
         }
-
-        footer p {
-            margin: 0;
-            font-size: 0.9rem;
+        a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>The Battle Cats</h1>
+        <h1>Příručka pro The Battle Cats</h1>
     </header>
+    <div class="container">
+        <h2>🐱 O hře</h2>
+        <p>
+            The Battle Cats je zábavná a návyková tower defense hra, kde hráči ovládají armádu roztomilých a zvláštních koček, aby ochránili svou základnu a dobyli území nepřátel. Hra je dostupná na platformách iOS a Android.
+        </p>
 
-    <nav>
-        <a href="#home">Domů</a>
-        <a href="#about">O hře</a>
-        <a href="#tips">Tipy a triky</a>
-    </nav>
+        <h2>🎮 Základní prvky hry</h2>
+        <ul>
+            <li><strong>Kapitoly:</strong>
+                <ul>
+                    <li>Hlavní hra je rozdělena na kapitoly (Empire of Cats, Into the Future, Cats of the Cosmos).</li>
+                    <li>Každá kapitola obsahuje řadu úrovní a bossů.</li>
+                </ul>
+            </li>
+            <li><strong>Kočičí základna:</strong> Chráníte svou základnu před nepřátelskými útoky a zároveň ničí základny nepřátel.</li>
+            <li><strong>Cat Food a Energy:</strong>
+                <ul>
+                    <li>Cat Food: Prémiová měna používaná pro nákup speciálních koček a obnovu energie.</li>
+                    <li>Energy: Omezený zdroj potřebný k hraní úrovní.</li>
+                </ul>
+            </li>
+            <li><strong>Kočky:</strong> Existuje několik druhů koček, které lze odemknout a upgradovat. Každá kočka má specifické vlastnosti a schopnosti.</li>
+        </ul>
 
-    <section class="hero">
-        <h2>Vítej v The Battle Cats!</h2>
-        <p>Vstup do světa plného rozkošných, ale nebezpečných koček, které bojují o nadvládu!</p>
-    </section>
+        <h2>📋 Tipy pro začátečníky</h2>
+        <ul>
+            <li>Ušetřete na upgrady: Zaměřte se na vylepšování produkce peněz (Worker Cat) na začátku každé bitvy.</li>
+            <li>Rozmanitost je klíčem: Mějte pestrou sestavu koček pro různé typy nepřátel.</li>
+            <li>Neutracejte hned Cat Food: Šetřete Cat Food pro speciální akce, jako jsou zlevněné Rolls nebo důležité upgrady.</li>
+            <li>Získejte Treasure: Sbírejte poklady z každé úrovně pro zvýšení vašich statistik.</li>
+            <li>Používejte combo bonusy: Některé sestavy koček poskytují speciální bonusy.</li>
+        </ul>
 
-    <div class="content">
-        <section id="about" class="section">
-            <h2>O hře</h2>
-            <p>The Battle Cats je populární strategická hra, kde hráči ovládají unikátní jednotky koček a čelí různým nepřátelům. Vybuduj svou armádu a ovládni svět!</p>
-        </section>
+        <h2>🌟 Doporučené strategie</h2>
+        <ol>
+            <li><strong>První kapitola - Empire of Cats:</strong> Zaměřte se na získání všech pokladů v normální a později i ve vyšší obtížnosti. Vyvažujte upgrady mezi útočnými kočkami a podporou základny.</li>
+            <li><strong>Boj proti bossům:</strong> Analyzujte typy nepřátel (např. Red, Black, Floating) a přizpůsobte svou sestavu. Používejte speciální kočky s výhodou proti těmto typům.</li>
+            <li><strong>Eventy:</strong> Sledujte události, které nabízejí vzácné kočky a bonusy. „Collaboration events“ často nabízejí limitované jednotky.</li>
+        </ol>
 
-        <section id="tips" class="section">
-            <h2>Tipy a triky</h2>
-            <ul>
-                <li>Správně načasuj útoky svých koček.</li>
-                <li>Investuj do upgradů pro zvýšení síly.</li>
-                <li>Používej speciální schopnosti strategicky.</li>
-            </ul>
-        </section>
+        <h2>🐾 Klíčové kočky</h2>
+        <ul>
+            <li><strong>Základní kočky:</strong>
+                <ul>
+                    <li>Cat: Vaše první kočka, vhodná pro útoky na začátku hry.</li>
+                    <li>Tank Cat: Skvělá pro absorpci útoků nepřátel.</li>
+                    <li>Axe Cat: Silná proti slabším nepřátelům.</li>
+                </ul>
+            </li>
+            <li><strong>Speciální kočky (Gacha):</strong>
+                <ul>
+                    <li>Paris Cat: Silná útočná jednotka s dlouhým dosahem.</li>
+                    <li>Bahamut Cat: Jedna z nejsilnějších koček, získáte ji po dokončení první kapitoly.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>🔗 Užitečné odkazy</h2>
+        <ul>
+            <li><a href="#">Oficiální stránka The Battle Cats</a></li>
+            <li><a href="#">Battle Cats Wiki</a></li>
+            <li><a href="#">Battle Cats Reddit</a></li>
+        </ul>
+
+        <div class="faq">
+            <h3>❓ Časté dotazy</h3>
+            <p><strong>Jak získám více Cat Food?</strong><br>Sledujte reklamy, plňte úkoly a účastněte se speciálních eventů.</p>
+            <p><strong>Jak rychleji získat zkušenosti (XP)?</strong><br>Hrajte XP stage během událostí a investujte do koček, které poskytují bonusy na XP.</p>
+        </div>
     </div>
-
     <footer>
-        <p>&copy; 2025 The Battle Cats Fan Page. Všechna práva vyhrazena.</p>
+        <p>Doufáme, že vám tato příručka pomůže stát se mistrem The Battle Cats! 🐱</p>
     </footer>
 </body>
 </html>
